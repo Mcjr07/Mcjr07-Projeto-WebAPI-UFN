@@ -6,12 +6,13 @@ namespace AlunosApi.Models
     [Table("Alunos")]
     public class Aluno
     {
+
         [Key]
         public int Id { get; set; }
         
         [Required]
         [StringLength(80)]
-        public string Name { get; set; }
+        public string Nome { get; set; }
        
         [Required]
         [EmailAddress]
