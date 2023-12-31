@@ -62,7 +62,7 @@ namespace AlunosApi.Services
             await _context.SaveChangesAsync();
         }
 
-        public async Task DeleteAluno(Aluno Aluno)
+        public async Task DeleteAluno(Aluno aluno)
         {
             _context.Alunos.Remove(aluno);
             await _context.SaveChangesAsync();

@@ -18,21 +18,21 @@ namespace AlunosApi.Data
                 new Aluno
                 {
                     Id = 1,
-                    Name = "Aline Silva",
+                    Nome = "Aline Silva",
                     Email = "alinesilva@hotmail.com",
                     Idade = 19
                 },
                 new Aluno
                 {
                     Id = 2,
-                    Name = "Bruna Ellen",
+                    Nome = "Bruna Ellen",
                     Email = "brunnaellen@gmail.com",
                     Idade = 20
                 },
                  new Aluno
                  {
                      Id = 3,
-                     Name = "Carlos Juan",
+                     Nome = "Carlos Juan",
                      Email = "carlinhos@gmail.com",
                      Idade = 18
                  }
