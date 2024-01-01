@@ -1,25 +1,22 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace AlunosApi.Models
 {
-    [Table("Alunos")]
-    public class Aluno
+    public partial class Aluno
     {
-
         [Key]
         public int Id { get; set; }
         
         [Required]
-        [StringLength(80)]
+        [StringLength(80, ErrorMessage = "")]
         public string Nome { get; set; }
-       
+
         [Required]
         [EmailAddress]
-        [StringLength(100)]
+        [StringLength(100, ErrorMessage = "")]
         public string Email { get; set; }
-       
+
         [Required]
-        public int Idade { get; set; } 
+        public int Idade { get; set; }
     }
 }
