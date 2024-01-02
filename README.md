@@ -1,1 +1,2 @@
-# Sistema de gerenciamento de financeiro Web/API.
+# Sistema de gerenciamento de financeiro Web/API - Back-End.
+
