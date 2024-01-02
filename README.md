@@ -1,1 +1,1 @@
-# Sistema de gerenciamento de alunos Web/API.
+# Sistema de gerenciamento de financeiro Web/API.
